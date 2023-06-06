@@ -1,0 +1,87 @@
+
+body 
+{
+  margin: 0;
+  font-family:Cambria, Georgia, serif;
+}
+
+/* Style the header */
+#header 
+  {
+    position: relative; 
+    height: 171px;
+    top: 0px;
+    width:100%;
+    text-align:center;   /*use this to center position */    
+    background-color:#218f5b;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(120, 189, 9);
+  }
+
+
+
+/* Style the side navigation */
+#sidenav1
+{
+  position: relative;	
+	float:left; 
+	top: 0px; 
+	width:175px;
+	height:100vh;		 /*used to fill vertical height on a page */
+	background-color:#18b42d;
+	text-align:center;   /*use this to center position */    
+}
+
+
+/* Side navigation links */
+#sidenav2
+{
+  position: relative;	
+  z-index: 1;
+	float:right; 
+	top: 0px; 
+	width:150px;
+	height:100vh;		 /*used to fill vertical height on a page */
+	background-color:#18b42d;
+	text-align:center;   /*use this to center position */ 
+}
+
+/* Change color on hover */
+#sidenav a:hover 
+{
+  background-color: #1eff9a;
+  color: rgb(36, 214, 20);
+}
+
+/* Style the content */
+#content {
+  position: relative;  
+  width: 100%;  
+	left:175px;
+	height:100%;
+	background-color:#62ec69;
+	padding:5px;
+  text-align: left;
+}
+
+#page{
+	position:absolute;
+	width:100%;
+	background-repeat:no-repeat;
+	background-color: #62ec69;
+}
+#images{
+	position: relative;	
+	float:left;
+	margin-left:20px;
+	margin-right:20px;
+	width:200px;
+	border:solid;
+	border-color:red;
+}
+#ai
+{
+	position: absolute;
+	right: 0%;
+}
